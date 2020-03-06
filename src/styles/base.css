@@ -1,0 +1,26 @@
+
+
+
+/* Elements styles */
+
+form {
+  margin: 0;
+}
+
+/* Base styles */
+
+.container {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > :not(:first-child) {
+  margin-left: 20px
+}
+
